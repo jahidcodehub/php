@@ -1,0 +1,17 @@
+.footer_section{
+    background-color:rgb(255, 192, 74);
+}
+footer{
+    max-width: 1300px;
+    margin: auto;
+    display:  flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    padding: 4px;
+}
+.cpyright_text{
+    color: rgb(255, 255, 255);
+}

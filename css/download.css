@@ -1,0 +1,44 @@
+.download_section{
+    background-color: antiquewhite;
+}
+.download_container{
+    max-width: 1300px;
+    margin: auto;
+    padding: 10px;
+}
+.download_text{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 90px;
+    color: white;
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+}
+.download_text::after{
+    content: '';
+    display: block;
+    max-width: 100%;
+    height: 6px;
+    background-color: rgb(55, 197, 131);
+    margin: -30px auto 90px;
+    position: absolute;
+}
+.slider{
+    width: 90%;
+    background-color: aquamarine;
+    padding: 8px;
+    margin: auto;
+    max-height: 300px;
+    overflow:scroll;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.slide{
+    min-width: 100%;
+}
+.slide img{
+    border-radius: 8px;
+    width: 100%;
+    
+}
